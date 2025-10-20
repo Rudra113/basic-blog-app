@@ -99,7 +99,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📫 Contact
 
-X-[r_u_d_r_a__01y](https://x.com/r_u_d_r_a__01) - rudraranjanmohanty@gmail.com
+X(twitter) - handle -[r_u_d_r_a__01](https://x.com/r_u_d_r_a__01) - rudraranjanmohanty@gmail.com
+
 
 
 
