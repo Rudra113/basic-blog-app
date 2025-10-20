@@ -30,6 +30,11 @@ This project is built with:
 
 * **Authentication:** JSON Web Tokens (JWT)
 
+## 🚀 Live App
+```
+https://basic-blog-app-c9qz.onrender.com/
+```
+
 ## 🚀 Getting Started
 
 Follow these instructions to get a local copy up and running for development and testing purposes.
@@ -97,4 +102,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## 📫 Contact
 
 Your Name -Rudra Ranjan Mohanty(https://x.com/r_u_d_r_a__01) - rudraranjanmohanty@gmail.com
+
 
