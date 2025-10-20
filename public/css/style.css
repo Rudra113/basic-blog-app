@@ -80,6 +80,71 @@ img {
     padding: 0 10px;
 }
 
+.about-main {
+    display: flex;
+    align-items: center;
+    /* Vertically centers the text and image */
+    max-width: 1000px;
+    /* Sets a max width for your content */
+    margin: 60px auto;
+    /* Centers the whole section on the page */
+    padding: 0 20px;
+    /* Adds some space on the sides */
+    gap: 40px;
+    /* Creates a gap between the image and text */
+}
+
+/* --- Column 1: Image --- */
+.container-about {
+    flex-basis: 45%;
+    /* Image column takes 45% of the width */
+}
+
+.container-about img {
+    max-width: 100%;
+    /* Makes the image responsive */
+    height: auto;
+    border-radius: 12px;
+    /* Adds the rounded corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    /* Adds a soft shadow */
+}
+
+/* --- Column 2: Text Description --- */
+.desc {
+    flex-basis: 55%;
+    /* Text column takes 55% of the width */
+}
+
+/* --- Text & Link Styling --- */
+.about-me-section h2 {
+    text-align: center;
+}
+
+.about-me-section p {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .about-main {
+        flex-direction: column;
+        /* Stacks columns vertically */
+        margin-top: 30px;
+        gap: 20px;
+    }
+
+    .container-about,
+    .desc {
+        flex-basis: 100%;
+        /* Makes each column full-width */
+    }
+
+    .about-me-section h2 {
+        font-size: 2rem;
+        /* Makes text a bit smaller on mobile */
+    }
+}
+
 .main {
     padding: 20px 0;
 }
@@ -110,6 +175,10 @@ img {
         grid-template-columns: auto 1fr auto;
         grid-template-areas:
             "logo menu button";
+    }
+
+    .header__nav ul {
+        gap: 7rem;
     }
 }
 
@@ -165,7 +234,7 @@ img {
 .header__nav ul {
     list-style-type: none;
     display: flex;
-    gap: 7rem;
+    gap: 3rem;
     font-weight: 600;
     padding: 0;
 }
