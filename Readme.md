@@ -96,4 +96,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📫 Contact
 
-Your Name -Rudraranjan Mohanty(https://x.com/r_u_d_r_a__01) - rudraranjanmohanty@gmail.com
+Your Name -Rudra Ranjan Mohanty(https://x.com/r_u_d_r_a__01) - rudraranjanmohanty@gmail.com
+
